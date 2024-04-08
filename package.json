@@ -14,7 +14,8 @@
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --ignore docs --config ./.markdownlint.jsonc --fix ./ ",
     "spell-check": "cspell  './**'",
-    "test": "jest --silent "
+    "test": "jest --silent ",
+    "study": "study"
   },
   "author": "HackYourFutureBelgium",
   "license": "MIT",
@@ -37,6 +38,7 @@
     "eslint-plugin-sonarjs": "^0.9.1",
     "jest": "^26.6.3",
     "markdownlint-cli": "^0.28.1",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "study-lenses": "^0.0.174"
   }
 }
